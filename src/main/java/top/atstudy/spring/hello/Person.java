@@ -38,4 +38,14 @@ public class Person {
     public void setGender(boolean gender) {
         this.gender = gender;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", gender=" + gender +
+                '}';
+    }
 }
