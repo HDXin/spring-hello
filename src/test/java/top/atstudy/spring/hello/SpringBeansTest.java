@@ -6,7 +6,6 @@ public class SpringBeansTest {
 
     @Test
     public void BeansOne(){
-        ApplicationContext
 
 
     }
